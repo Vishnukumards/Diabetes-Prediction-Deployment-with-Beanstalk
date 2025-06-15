@@ -3,17 +3,19 @@
 This project is a web-based application that predicts whether a person is likely to have diabetes based on medical parameters. It leverages a trained machine learning model and provides a user-friendly interface built with Flask and Tailwind CSS.
 
 ---
-- Done :
--   Data Collection
--   Data Cleaning
--   EDA
--   Feature Engineering
--   Train-Test Split
--   Model Train on Multiple models
--   Hyperparameter Tuning
--   Model Selection
--   Model Evaluation
--   Deployment
+Work Done :
+
+  -   Data Collection
+  -   Data Cleaning
+  -   EDA
+  -   Feature Engineering
+  -   Train-Test Split
+  -   Model Train on Multiple models
+  -   Hyperparameter Tuning
+  -   Model Selection
+  -   Model Evaluation
+  -   Deployment
+
 ----
 ## 🧠 Features
 
