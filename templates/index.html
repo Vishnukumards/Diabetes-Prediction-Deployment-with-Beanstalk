@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - Diabetes Prediction</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-100 to-purple-200 min-h-screen flex items-center justify-center">
+
+  <div class="text-center p-10 bg-white rounded-2xl shadow-xl max-w-md w-full">
+    <h1 class="text-2xl font-bold text-purple-800 mb-2">Diabetes Prediction using Machine Learning</h1>
+    <h2 class="text-xl font-semibold text-indigo-700 mb-4">Welcome to the Home Page</h2>
+    <p class="text-gray-600 mb-8">Use our intelligent model to predict the likelihood of diabetes based on health parameters.</p>
+    
+    <a href="{{ url_for('predict_datapoint') }}">
+      <button class="bg-indigo-600 text-white px-6 py-3 rounded-xl shadow hover:bg-indigo-700 transition duration-300 font-semibold">
+        Go to Prediction Page
+      </button>
+    </a>
+  </div>
+
+</body>
+</html>
